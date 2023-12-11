@@ -1,0 +1,34 @@
+Erros aprendidos no projeto
+
+TOP-BAR
+
+Não foi necessário criar uma div para fazer o fundo laranja, foi utilizado o comando border-bottom: que fez a borda embaixo
+
+Não foi necessário utilizar o <h2> como fonte, um texto simples e modificado com os paramêtros css
+
+obs. código css diminuiu 9 linhas
+
+HEADER
+
+Foi criado uma <div> com a class container onde está abrangendo toda a página, tanto o header quanto o conteudo
+
+o H1 foi definido uma classe para ele e o sub-titulo foi utilizado o h2 (no meu programa coloquei a tag <p>)
+
+Na parte do quem foi escrito foi adicionado uma <div> para o nome do escritor e para a data foi definido fora da <div> a tag <small> e <sub> com os valores dentro
+
+Para o social media foi criado como link, no meu projeto foi apenas imagem. Foi criado um classe para as imagens
+As imagens não foi disponibilizado os Alt="" para informar qual informação é para  os usuários
+
+HEADER css
+
+No container que define o limite da página foi usado o max-width que é o maximo que a página pode chegar... no meu projeto foi usado apenas width.
+
+No H1 foi definido uma fonte maior e diminuido a distancia de uma linha para outra utilizando o line-height (O line-height ideal ele vai ter o tamanho da fonte + 8px)
+
+conteudo
+
+Foi modificado a tag <p> aumentanto a fonte e aumentado o espaçamento entre as linhas
+Foi criado uma div com a class CTA (call to action) e colocamos o link para a chamada
+
+para a imagem foi criado uma tag <figure> e dentro dela colocamos a imagem...
+para colocar a legenda da imagem usamos a tag <figcaption>

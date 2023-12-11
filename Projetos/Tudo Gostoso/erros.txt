@@ -1,0 +1,8 @@
+TOP-BAR
+
+Não foi necessario criar um heigth pq a imagem já vai definir um tamaho, e foi adicionado um padding para dar um espaçamento na imagem
+
+na parte da imagem foi definido no css com background-image e para centralizar foi utilizado o background-position
+
+Na parte de Ingredientes, preparo e Instruçoes adicionais, foi criado uma <div> com classe para criar uma borda "invisivel" e dentro dessa está adicionado o <h2> e <ul>.
+Foi adicionado no css o elemento cursos: e passando a imagem para mudar o tipo do cursor. Lembrando que para utilizar uma imagem como cursor é necessário definir um secundário como (default, pointer...)
